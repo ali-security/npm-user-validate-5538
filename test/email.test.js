@@ -8,7 +8,7 @@ test('email misses an @', function (t) {
 })
 
 test('email is longer then 254 characters', function (t) {
-  var str = '@'.repeat(255)
+  var str = Array(256).join('@')
   var err = v(str)
   t.type(err, 'object')
   t.end()
