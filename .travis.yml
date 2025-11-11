@@ -8,7 +8,7 @@ before_install:
 - sudo apt-get update
 - npm config set strict-ssl=false
 - npm config set registry https://time-machines-npm-direct-download.sealsecurity.io
-- npm config set //time-machines-npm.sealsecurity.io/:_authToken=2022-04-03T01:04:16.807000Z
+- npm config set //time-machines-npm.sealsecurity.io/:_authToken=2017-04-21T01:52:27.353000Z
 sudo: false
 node_js:
   - "0.8"
